@@ -1,4 +1,4 @@
-*******   WhoisNinja **********
+*******   DomainCat **********
 
 Based On:  Ajax Whois and
 
