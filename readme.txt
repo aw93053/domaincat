@@ -2,7 +2,7 @@
 
 Based On:  Ajax Whois and
 
-Ajax Whois using InterNetX Proxy v1.3 [12.7.2012]
+Ajax Whois using InterNetX Proxy v1.3 [4.5.2013]
 
 
 How to use:
@@ -32,9 +32,12 @@ whois.autodns3.de
 All replies from the whois proxy will answer "free" if a domain is available
 
 
+**************************************************************************
+Important information:  a query for one Domainname(TLD) will deplete one 
+query from your service provider's monthly contingent
 
-Important information:  a query for one TLD using the whois proxy will deplete one query from your monthly contingent. If you activate all the TLDs and query one term, it will deplete multiple queries from the contingent. Only activate the ones you really need.
-
+Only activate the ones you really need.
+**************************************************************************
 
 
 

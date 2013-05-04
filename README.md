@@ -1,4 +1,4 @@
 whoisninja
 ==========
 
-Whois Proxy using InternetX
+Whois Proxy using InternetX as service provider

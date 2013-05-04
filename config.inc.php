@@ -35,7 +35,7 @@ in order to limit the number of request sent to the whois server
 WhoisNinja
 Modified by: Alexander Werner (May 3rd 2013)
 
-Migrated to Github
+Added: Migrated to Github
 
 
 - - - - - - - - - - - - - - - - - - - - - -
