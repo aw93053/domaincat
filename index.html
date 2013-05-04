@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Ajax Whois using InterNetX Whois Proxy v1.3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style type="text/css">
+body,div,td,th,p{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:18px;margin:0 0 0 0;color:#333}
+a{color:#0082D6;text-decoration:none}
+a:hover{color:red;text-decoration:none}
+.domainform{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:18pt;color:#333;position:relative;background-color:#fff;border:4px solid #1D7CF2;margin:10px 0 10px -10px;padding:7px 7px 7px 9px;width:60%;visibility:visible}
+.footer{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:#333}
+.normaltext{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:18px}
+.bookmarktext{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:14px}
+.result{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:14px}
+h1{font-family: Arial,Tahoma,Verdana,sans-serif;font-size:30px}
+</style>
+
+<script type="text/javascript" language="Javascript">var http_request=false;function makeRequest(A,B){http_request=false;if(window.XMLHttpRequest){http_request=new XMLHttpRequest();if(http_request.overrideMimeType){http_request.overrideMimeType("text/html");}}else{if(window.ActiveXObject){try{http_request=new ActiveXObject("Msxml2.XMLHTTP");}catch(C){try{http_request=new ActiveXObject("Microsoft.XMLHTTP");}catch(C){}}}}if(!http_request){alert("Cannot create XMLHTTP instance");return false;}http_request.onreadystatechange=alertContents;http_request.open("GET",A+B,true);http_request.send(null);document.getElementById("myspan").innerHTML='<img src="loading.gif" alt="Please wait for your results">';}function alertContents(){if(http_request.readyState==4){if(http_request.status==200){result=http_request.responseText;document.getElementById("myspan").innerHTML=result;}else{alert("There was a problem with the request. Is your IP Authorized to use the InterNetX Whois Proxy?");}}}function get(C){var B=document.getElementById("domainname");var A=B.value;if(A.length<3){alert("Not a Valid Domain Name");}else{makeRequest("get.php","?domainname="+A);}}</script>
+<script type="text/javascript" language="Javascript">function focus(){ document.myform.domainname.focus(); }</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0"  onload="focus()">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td valign="top" bgcolor="#1D7CF2"><table width="100%" border="0" cellpadding="5" cellspacing="0">
+        <tr>
+          <td width="432"></td>
+    
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+  </tr>
+  <tr> 
+    <td class="field"><div align="center"> 
+	<form action="javascript:get(document.getElementById('myform'));" name="myform" id="myform">
+          <h3>Just type the domain name without the TLD (example: mydomain etc.) and press Enter</h3>
+	
+	<b>Your search will return results for:<br>
+	
+	.com, .net, .org, .info, .biz, .de, .uk, .nl, .eu, .it, .mobi,
+	<br>,asia, .name, .at, .ch, .es, .me, .nu, .se, .us</b>
+	
+          <p> 
+		    <input name="domainname" id="domainname" type="text" class="domainform">
+	
+	
+	
+	
+	
+          </p>
+        </form>
+      </div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><!-- Results Display Inside span--> <span name="myspan" id="myspan"></span> 
+    <!--End Results Display -->
+
+<span class="footer"><center>
+
+<b>WhoisNinja</b>
+<br>
+&copy;2008-2012 <a href="http://eff-bee-eye.de">Alexander Werner</a>
+<br>
+Last Update: July 12th, 2012
+<br>
+<b>This script is not officially supported by InterNetX.</b>
+<b>Second-Level TLDs may be disabled on the website due to
+registry side restrictions</b>
+
+
+
+<hr width="600">
+
+The following 982 TLDs and SubTLDs can be registered with 
+<a href="http://internetx.de">InterNetX: </a>
+
+<pre>
+ac, off.ac, org.ac, ae, aero, af, com.af, net.af, org.af, ag, co.ag,
+com.ag, net.ag, nom.ag, org.ag, ai, com.ai, net.ai, off.ai, org.ai, al,
+com.al, net.al, org.al, am, aq, ar, com.ar, arpa, as, asia, at, co.at,
+or.at, au, asn.au, com.au, net.au, org.au, ba, bb, com.bb, net.bb,
+org.bb, be, bg, bi, co.bi, com.bi, edu.bi, mo.bi, or.bi, org.bi, biz,
+bj, bm, com.bm, net.bm, org.bm, bo, com.bo, br, com.br, net.br, bs, bt,
+com.bt, net.bt, by, com.by, net.by, bz, co.bz, com.bz, net.bz, ca, cat,
+cc, cd, cg, ch, ci, cl, cm, cn, ac.cn, ah.cn, bj.cn, com.cn, cq.cn,
+fj.cn, gd.cn, gs.cn, gx.cn, gz.cn, ha.cn, hb.cn, he.cn, hi.cn, hk.cn,
+hl.cn, hn.cn, jl.cn, js.cn, jx.cn, ln.cn, mo.cn, net.cn, nm.cn, nx.cn,
+org.cn, qh.cn, sc.cn, sd.cn, sh.cn, sn.cn, sx.cn, tj.cn, tw.cn, xj.cn,
+xz.cn, yn.cn, zj.cn, co, com.co, net.co, nom.co, com, ar.com, br.com,
+cn.com, de.com, eu.com, gb.com, gr.com, hu.com, jpn.com, kr.com, no.com,
+qc.com, ru.com, sa.com, se.com, uk.com, us.com, uy.com, za.com, coop,
+cr, co.cr, or.cr, cu, com.cu, cx, cy, com.cy, net.cy, org.cy, cz, de,
+com.de, dj, dk, dm, com.dm, net.dm, org.dm, do, com.do, net.do, org.do,
+ec, com.ec, fin.ec, info.ec, med.ec, net.ec, pro.ec, edu, ee, es,
+com.es, nom.es, org.es, eu, fi, fj, ac.fj, biz.fj, com.fj, gov.fj,
+info.fj, mil.fj, name.fj, net.fj, org.fj, pro.fj, fm, fr, aeroport.fr,
+assedic.fr, asso.fr, avocat.fr, avoues.fr, cci.fr, chambagri.fr,
+chirurgiens-dentistes.fr, com.fr, experts-comptables.fr,
+geometre-expert.fr, gouv.fr, greta.fr, huissier-justice.fr, medecin.fr,
+nom.fr, notaires.fr, pharmacien.fr, port.fr, prd.fr, presse.fr, tm.fr,
+veterinaire.fr, gd, gg, co.gg, gov.gg, net.gg, org.gg, sch.gg, gi,
+com.gi, ltd.gi, org.gi, gl, gm, gp, com.gp, net.gp, gr, com.gr, edu.gr,
+gov.gr, net.gr, org.gr, gs, gt, co.gt, com.gt, edu.gt, gob.gt, ind.gt,
+mil.gt, net.gt, org.gt, gy, co.gy, com.gy, net.gy, hk, com.hk, net.hk,
+org.hk, hm, hn, com.hn, net.hn, org.hn, hr, com.hr, ht, com.ht, hu,
+co.hu, id, ac.id, co.id, net.id, or.id, web.id, ie, il, co.il, org.il,
+im, co.im, com.im, net.im, org.im, in, co.in, firm.in, gen.in, ind.in,
+int.in, net.in, org.in, info, io, ir, co.ir, is, it, abr.it, abruzzo.it,
+ag.it, agrigento.it, al.it, alessandria.it, alto-adige.it, altoadige.it,
+an.it, ancona.it, andria-barletta-trani.it, andria-trani-barletta.it,
+andriabarlettatrani.it, andriatranibarletta.it, ao.it, aosta.it,
+aosta-valley.it, aostavalley.it, aoste.it, ap.it, aq.it, aquila.it,
+ar.it, arezzo.it, ascoli-piceno.it, ascolipiceno.it, asti.it, at.it,
+av.it, avellino.it, ba.it, balsan.it, bari.it, barletta-trani-andria.it,
+barlettatraniandria.it, bas.it, basilicata.it, belluno.it, benevento.it,
+bergamo.it, bergamo .it, bg.it, bi.it, biella.it, bl.it, bn.it, bo.it,
+bologna.it, bolzano.it, bozen.it, br.it, brescia.it, brindisi.it, bs.it,
+bz.it, ca.it, cagliari.it, cal.it, calabria.it, caltanissetta.it,
+cam.it, campania.it, campidano-medio.it, campidanomedio.it,
+campobasso.it, carbonia-iglesias.it, carboniaiglesias.it,
+carrara-massa.it, carraramassa.it, caserta.it, catania.it, catanzaro.it,
+cb.it, ce.it, cesena-forli.it, cesenaforli.it, ch.it, chieti.it, cl.it,
+cn.it, co.it, como.it, cosenza.it, cr.it, cremona.it, crotone.it, cs.it,
+ct.it, cuneo.it, cz.it, dell-ogliastra.it, dellogliastra.it,
+emilia-romagna.it, emiliaromagna.it, emr.it, en.it, enna.it, fc.it,
+fe.it, fermo.it, ferrara.it, fg.it, fi.it, firenze.it, florence.it,
+foggia.it, forli-cesena.it, forlicesena.it, fr.it, friuli-v-giulia.it,
+friuli-ve-giulia.it, friuli-vegiulia.it, friuli-venezia-giulia.it,
+friuli-veneziagiulia.it, friuli-vgiulia.it, friuliv-giulia.it,
+friulive-giulia.it, friulivegiulia.it, friulivenezia-giulia.it,
+friuliveneziagiulia.it, friulivgiulia.it, frosinone.it, fvg.it, ge.it,
+genoa.it, genova.it, go.it, gorizia.it, gr.it, grosseto.it,
+iglesias-carbonia.it, iglesiascarbonia.it, im.it, imperia.it, is.it,
+isernia.it, kr.it, la-spezia.it, laquila.it, laspezia.it, latina.it,
+laz.it, lazio.it, lc.it, le.it, lecce.it, lecco.it, li.it, lig.it,
+liguria.it, livorno.it, lo.it, lodi.it, lom.it, lombardia.it,
+lombardy.it, lt.it, lu.it, lucania.it, lucca.it, macerata.it,
+mantova.it, mar.it, marche.it, massa-carrara.it, massacarrara.it,
+matera.it, mc.it, me.it, medio-campidano.it, mediocampidano.it,
+messina.it, mi.it, milan.it, milano.it, mn.it, mo.it, modena.it, mol.it,
+molise.it, monza.it, monza-brianza.it, monza-e-della-brianza.it,
+monzabrianza.it, monzaebrianza.it, monzaedellabrianza.it, ms.it, mt.it,
+na.it, naples.it, napoli.it, no.it, novara.it, nu.it, nuoro.it,
+ogliastra.it, olbia-tempio.it, olbiatempio.it, or.it, oristano.it,
+pa.it, padova.it, padua.it, palermo.it, parma.it, pavia.it, pc.it,
+pd.it, pe.it, perugia.it, pesaro-urbino.it, pesarourbino.it, pescara.it,
+pg.it, pi.it, piacenza.it, piedmont.it, piemonte.it, pisa.it,
+pistoia.it, pmn.it, pn.it, po.it, pordenone.it, potenza.it, pr.it,
+prato.it, pt.it, pu.it, pug.it, puglia.it, pv.it, pz.it, ra.it,
+ragusa.it, ravenna.it, rc.it, re.it, reggio-calabria.it,
+reggio-emilia.it, reggiocalabria.it, reggioemilia.it, rg.it, ri.it,
+rieti.it, rimini.it, rm.it, rn.it, ro.it, roma.it, rome.it, rovigo.it,
+sa.it, salerno.it, sar.it, sardegna.it, sardinia.it, sassari.it,
+savona.it, si.it, sic.it, sicilia.it, sicily.it, siena.it, siracusa.it,
+so.it, sondrio.it, sp.it, sr.it, ss.it, suedtirol.it, sv.it, ta.it,
+taa.it, taranto.it, te.it, tempio-olbia.it, tempioolbia.it, teramo.it,
+terni.it, tn.it, to.it, torino.it, tos.it, toscana.it, tp.it, tr.it,
+trani-andria-barletta.it, trani-barletta-andria.it,
+traniandriabarletta.it, tranibarlettaandria.it, trapani.it, trentino.it,
+trentino-a-adige.it, trentino-aadige.it, trentino-alto-adige.it,
+trentino-altoadige.it, trentino-s-tirol.it, trentino-stirol.it,
+trentino-sud-tirol.it, trentino-sudtirol.it, trentino-sued-tirol.it,
+trentino-suedtirol.it, trentinoa-adige.it, trentinoaadige.it,
+trentinoalto-adige.it, trentinoaltoadige.it, trentinos-tirol.it,
+trentinostirol.it, trentinosud-tirol.it, trentinosudtirol.it,
+trentinosued-tirol.it, trentinosuedtirol.it, trento.it, treviso.it,
+trieste.it, ts.it, turin.it, tuscany.it, tv.it, ud.it, udine.it, umb.it,
+umbria.it, urbino-pesaro.it, urbinopesaro.it, va.it, val-d-aosta.it,
+val-daosta.it, vald-aosta.it, valdaosta.it, valle-aosta.it,
+valle-d-aosta.it, valle-daosta.it, valleaosta.it, valled-aosta.it,
+valledaosta.it, vallee-aoste.it, valleeaoste.it, vao.it, varese.it,
+vb.it, vc.it, vda.it, ve.it, ven.it, veneto.it, venezia.it, venice.it,
+verbania.it, vercelli.it, verona.it, vi.it, vibo-valentia.it,
+vibovalentia.it, vicenza.it, viterbo.it, vr.it, vt.it, vv.it, je, co.je,
+gov.je, net.je, org.je, sch.je, jobs, jp, ac.jp, co.jp, ed.jp, go.jp,
+gr.jp, ne.jp, or.jp, ke, co.ke, or.ke, kg, com.kg, net.kg, org.kg, ki,
+com.ki, net.ki, org.ki, kr, co.kr, ne.kr, or.kr, kz, la, lb, com.lb,
+net.lb, org.lb, lc, co.lc, com.lc, net.lc, org.lc, li, ls, co.ls,
+org.ls, lt, lu, lv, com.lv, net.lv, ly, mc, md, me, mg, co.mg, com.mg,
+net.mg, mn, mobi, mp, ms, com.ms, net.ms, org.ms, mt, com.mt, edu.mt,
+net.mt, org.mt, mu, ac.mu, co.mu, com.mu, net.mu, or.mu, org.mu, 
+mw, mx, com.mx, org.mx, my, com.my, net.my, org.my, na, co.na, com.na,
+net.na, org.na, name, net, gb.net, se.net, uk.net, nf, com.nf, net.nf,
+ng, com.ng, edu.ng, net.ng, org.ng, ni, com.ni, net.ni, nom.ni, org.ni,
+nl, no, nu, nz, ac.nz, co.nz, geek.nz, gen.nz, net.nz, org.nz,
+school.nz, om, co.om, com.om, net.om, org.om, org, ae.org, pa, com.pa,
+pe, com.pe, net.pe, nom.pe, org.pe, ph, com.ph, net.ph, org.ph, pk,
+com.pk, net.pk, org.pk, pl, biz.pl, com.pl, info.pl, net.pl, org.pl,
+waw.pl, pm, pr, at.pr, biz.pr, ch.pr, com.pr, de.pr, edu.pr, eu.pr,
+fr.pr, gov.pr, info.pr, isla.pr, it.pr, name.pr, net.pr, nl.pr, org.pr,
+pro.pr, uk.pr, pro, cba.pro, cpa.pro, den.pro, ing.pro, jur.pro,
+law.pro, med.pro, stb.pro, ps, com.ps, net.ps, org.ps, pt, com.pt,
+org.pt, py, com.py, qa, re, ro, arts.ro, co.ro, com.ro, firm.ro,
+info.ro, nom.ro, nt.ro, org.ro, rec.ro, store.ro, tm.ro, www.ro, rs,
+co.rs, ru, com.ru, net.ru, org.ru, pp.ru, rw, sa, com.sa, net.sa,
+org.sa, pub.sa, sb, com.sb, net.sb, org.sb, sc, com.sc, net.sc, org.sc,
+se, sg, com.sg, net.sg, org.sg, sh, si, sk, sl, so, com.so, net.so,
+org.so, st, su, sv, com.sv, tc, tel, tf, th, co.th, in.th, net.th, tk,
+tl, tm, to, tr, bbs.tr, biz.tr, com.tr, gen.tr, info.tr, name.tr,
+tel.tr, web.tr, travel, tt, co.tt, com.tt, net.tt, org.tt, tv, tw,
+com.tw, idv.tw, org.tw, ua, com.ua, net.ua, org.ua, ug, co.ug, uk,
+co.uk, ltd.uk, me.uk, net.uk, org.uk, plc.uk, us, uy, com.uy, vc,
+com.vc, net.vc, org.vc, ve, co.ve, com.ve, vg, vi, co.vi, com.vi, vn,
+ac.vn, biz.vn, com.vn, edu.vn, gov.vn, health.vn, info.vn, int.vn,
+name.vn, net.vn, org.vn, pro.vn, vu, wf, ws, xn--90a3ac, xn--p1ai,
+xn--ygbi2ammx, xxx, yt, za, co.za
+</pre>
+
+
+<br>
+<br>
+<hr width="600">
+Of these 982, there are 187 TLDs (either gTLD, ccTLD or Sponsored), 1 for the CentralNIC domains
+and 1 for Infrastructure (9.4.e164.arpa) and these (186) are:
+
+<pre>
+ac,ae,aero,af,ag,ai,al,am,aq,ar,as,asia,at,au,ba,bb,be,bg,bi,biz,bm,bo,br,bs,bt,by,bz,ca,
+cat,cc,cd,cg,ch,cl,cm,cn,co,com,coop,cr,cu,cx,cy,cz,de,dj,dk,dm,do,ec,ee,es,eu,fi,fj,fm,
+fr,gd,gg,gi,gl,gm,gp,gr,gs,gt,gy,hk,hm,hn,hr,ht,hu,id,ie,il,im,in,info,io,ir,is,it,je,
+jobs,jp,kg,ki,kr,kz,la,lb,lc,li,ls,lt,lu,lv,ly,mc,md,me,mg,mn,mobi,mp,ms,mt,mu,mw,mx,
+my,na,name,net,nf,ng,ni,nl,no,nu,nz,om,org,pa,pe,ph,pk,pl,pm,pr,pro,ps,pt,py,qa,re,ro,
+rs,ru,rw,sa,sb,sc,se,sg,sh,si,sk,sl,so,st,su,sv,tc,tel,tf,th,tk,tl,tm,to,tr,travel,tt,
+tv,tw,ua,ug,uk,us,uy,vc,ve,vg,vi,vn,vu,wf,ws,xn--90a3ac,xn--p1ai,xn--ygbi2ammx,xxx,yt,za
+</pre><br>
+
+<hr>
+
+</center></span></div>
+
+</table>
+</body>
+</html>
+
