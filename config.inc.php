@@ -13,36 +13,24 @@ Version 1.1 add .info .biz .us / rewrite code
 Version 1.0 first version only .com .net .org
 
 - - - - - - - - - - - - - - - - - - - -
-
 Ajax Whois using InterNetX Whois Proxy v1.3
 Modified by: Alexander Werner (July 11th 2012)
 Contact: alex@eff-bee-eye.de
-
 
 Version 1.3
 Added: more than 30 new TLDs
 Improved: DNSCHECK Fallback for domains that have no whois server
 
-
 Version 1.2
 Added: InterNetX Whois Proxy Connectivity
 Added: Changed to send requests on enter instead of per-keystroke
 in order to limit the number of request sent to the whois server
-
 - - - - - - - - - - - - - - - - - - - - -
-
-
 WhoisNinja
 Modified by: Alexander Werner (May 3rd 2013)
 
 Added: Migrated to Github
-
-
 - - - - - - - - - - - - - - - - - - - - - -
-
-
-
-
 
 Usage:
 
