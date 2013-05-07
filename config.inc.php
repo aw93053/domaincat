@@ -26,7 +26,7 @@ Added: InterNetX Whois Proxy Connectivity
 Added: Changed to send requests on enter instead of per-keystroke
 in order to limit the number of request sent to the whois server
 - - - - - - - - - - - - - - - - - - - - -
-DomainCat
+WhoisPimp
 Modified by: Alexander Werner (May 3rd 2013)
 
 Added: Migrated to Github

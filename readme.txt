@@ -1,4 +1,4 @@
-*******   DomainCat **********
+*******   WhoisPimp  **********
 
 Based On:  Ajax Whois and
 
