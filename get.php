@@ -238,7 +238,7 @@ echo "<table width=\"600\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\">
 //not valid domain
 
 echo "<?xml version='1.0' encoding='UTF-8'?>";
-echo "<table width=\"600\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\">
+echo "<table width=\"600\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" bgcolor=\"#FFFF00\">
   <tr valign=\"top\"> 
     <td colspan=\"3\" class=\"bookmarktext\"><center><b>$statusmsg[$isvalid]</b></center></td>
     </tr>

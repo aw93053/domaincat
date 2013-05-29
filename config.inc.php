@@ -85,7 +85,7 @@ $whois_error = Array('Can\'t get information');
 
 //status message
 $statusmsg[0] = "is available!";
-$statusmsg[1] = "Domain name length < 3 letter.";
+$statusmsg[1] = "Domain name length < 3 letters or invalid characters";
 $statusmsg[2] = "Domain name can not start or end with -.";
 $statusmsg[3] = "Please use letters , numbers and - only.";
 $statusmsg[4] = "Can\'t lookup. Please try later";
